@@ -1,5 +1,16 @@
 {
   "dependencies": {
     "prompt-sync": "^4.2.0"
-  }
+  },
+  "name": "2-projeto",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
