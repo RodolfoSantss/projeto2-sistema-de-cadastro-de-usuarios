@@ -3,11 +3,10 @@ class Usuario {
 
     #ativo
 
-    constructor(nome, email, senha, ativo) {
+    constructor(nome, email, idade) {
         this.nome = nome
         this.email = email
-        this.senha = senha
-        this.#ativo = ativo
+        this.idade = idade
         Usuario.totalUsuarios++
     }
 
@@ -25,14 +24,11 @@ class Usuario {
     return `Bem-vindo, ${this.nome}!`
   }
 
-    mostarDados() {
-        console.log(`
-            Nome: ${this.nome}
-            Idade: ${this.idade}
-            Email: ${this.email}
-            Ativo: ${this.ativo}
-            Total de Usuários: ${Usuario.totalUsuarios}
-            =======================`)
+    mostrarDados() {
+        console.log(`Nome: ${this.nome}
+Idade: ${this.idade}
+Email: ${this.email}
+Ativo: ${this.ativo}`)
     }
 
     static contarUsuarios() {
